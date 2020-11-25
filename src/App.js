@@ -1,12 +1,13 @@
 import React from "react";
-import {Container} from "@material-ui/core";
-import VacanciesPage from "./containers/VacanciesPage";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./Components/Header";
 
 function App() {
   return (
-    <Container>
-      <VacanciesPage />
-    </Container>
+    <div>
+      <Header />
+    </div>
   );
 }
 
